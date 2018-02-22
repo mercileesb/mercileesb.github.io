@@ -2,7 +2,7 @@
 # Theme Customization #
 #######################
 
-title: Merci Beacoup !                             # used in <title> tag & site header
+title: Merci !                             # used in <title> tag & site header
 author: Seungbin Lee                        # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   Hello 911 emergency, there's a handsome guy in my house!
@@ -24,27 +24,37 @@ nav_menu:
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
-    url: https://github.com/rlue/
+    url: https://github.com/mercileesb/
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
     scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    handle: merci.leesb       # you know, to protect you from bots. (handle and domain
+    domain: gmail.com  # are separated in case bots crawl GitHub repos, too.)
     icon: /i/icons.svg#email
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue''            
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
+  - title: DELF Feature extraction for Google landmark recognition
+    teaser: Easy to extract local feature, works very well.
+    url: https://github.com/mercileesb/delf_tensorflow
+    role: Leader
+    category: Image recognition, Deep feature
+  - title: ACM Multimedia'17@Mountain view, Large-Scale Video Classification Challenge
+    teaser: LSVC2017 World Rank 8th !
+    url: http://lsvc17.azurewebsites.net
+    role: Leader
+    category: Video classification, Action recognition
+  - title: SAMSUNG Electronics C/E Hackathon 2016
+    teaser: Detect obstacles, such as pet excrement, using Robot vacuum cleaner.
+    url: ""
+    role: Leader
+    category: Tizen, Embedded computing, Image processing
+  - title: SAMSUNG Electronics Tizen 3.0 Tutorials
+    teaser: Examples and Wiki docs for newly released tizen version 3.0
+    url: https://github.com/mercileesb/tizen-multimedia-apps
+    role: Leader
+    category: Tizen, Embedded computing, Image processing
 
 
 #################
